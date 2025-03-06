@@ -1,3 +1,2 @@
-# ligakorupsi
-Nguawor lek
+# Nguawor Lek
 ligakorupsi.vercel.app
