@@ -1,2 +1,2 @@
 # Nguawor Lek
-[Klik di sini](https://ligakorupsi.vercel.app)
+[😂](https://ligakorupsi.vercel.app)
