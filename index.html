@@ -1,75 +1,206 @@
-<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Leader Board Liga Korupsi Indonesia</title>
-</head>
-
-<body>
-    <div class="container">
-        <h1>Klasemen Terupdate Liga Korupsi Indonesia</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Teams</th>
-                    <th>PTS</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><span class="rank">1</span> Pertamina</td>
-                    <td>968,5 T</td>
-                </tr>
-                <tr>
-                    <td><span class="rank">2</span> PT Timah</td>
-                    <td>300 T</td>
-                </tr>
-                <tr>
-                    <td><span class="rank">3</span> BLBI</td>
-                    <td>138 T</td>
-                </tr>
-                <tr>
-                    <td><span class="rank">4</span> Duta Palma</td>
-                    <td>78 T</td>
-                </tr>
-                <tr>
-                    <td><span class="rank">5</span> PT TPPi</td>
-                    <td>37 T</td>
-                </tr>
-                <tr>
-                    <td><span class="rank">6</span> PT Asabri</td>
-                    <td>22 T</td>
-                </tr>
-                <tr>
-                    <td><span class="rank">7</span> PT Jiwasraya</td>
-                    <td>17 T</td>
-                </tr>
-                <tr>
-                    <td><span class="rank">8</span> Kemensos</td>
-                    <td>17 T</td>
-                </tr>
-                <tr>
-                    <td><span class="rank">9</span> Sawit CPO</td>
-                    <td>12 T</td>
-                </tr>
-                <tr>
-                    <td><span class="rank">10</span> Garuda Indonesia</td>
-                    <td>9 T</td>
-                </tr>
-                <tr>
-                    <td><span class="rank">11</span> BTS Kominfo</td>
-                    <td>8 T</td>
-                </tr>
-                <tr>
-                    <td><span class="rank">12</span> Bank Century</td>
-                    <td>7 T</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</body>
-
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Klasemen Terupdate Liga Korupsi Indonesia
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100 flex justify-center items-center min-h-screen">
+  <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-2xl">
+   <h1 class="text-center text-xl font-bold mb-4">
+    KLASEMEN TERUPDATE
+   </h1>
+   <h2 class="text-center text-2xl font-bold mb-6">
+    LIGA KORUPSI INDONESIA
+   </h2>
+   <div class="overflow-x-auto">
+    <table class="w-full text-left">
+     <thead>
+      <tr>
+       <th class="py-2 px-4">
+        Teams
+       </th>
+       <th class="py-2 px-4 text-right">
+        Pts
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr class="border-t">
+       <td class="py-2 px-4 flex items-center">
+        <span class="mr-2 w-4 text-center">
+         1
+        </span>
+        <img alt="Pertamina logo" class="mr-2" height="20" src="https://storage.googleapis.com/a1aa/image/uLm4waYuHVVdBXqc8NTbTQa5o99_q4LNjJBP8j2YLrw.jpg" width="20"/>
+        <span class="font-bold">
+         PERTAMINA
+        </span>
+       </td>
+       <td class="py-2 px-4 text-right font-bold">
+        968,5 T
+       </td>
+      </tr>
+      <tr class="border-t">
+       <td class="py-2 px-4 flex items-center">
+        <span class="mr-2 w-4 text-center">
+         2
+        </span>
+        <img alt="PT Timah logo" class="mr-2" height="20" src="https://storage.googleapis.com/a1aa/image/FlPCZ8xa4j5FQZIup6Ew4ITzzhax9X2J4GSPdRrCbpg.jpg" width="20"/>
+        <span class="font-bold">
+         PT TIMAH
+        </span>
+       </td>
+       <td class="py-2 px-4 text-right font-bold">
+        300 T
+       </td>
+      </tr>
+      <tr class="border-t">
+       <td class="py-2 px-4 flex items-center">
+        <span class="mr-2 w-4 text-center">
+         3
+        </span>
+        <img alt="BLBI logo" class="mr-2" height="20" src="https://storage.googleapis.com/a1aa/image/rixiPrMf6wKdRqxqbogHN0ZbMoyXoa5zja8AFbHWJPw.jpg" width="20"/>
+        <span class="font-bold">
+         BLBI
+        </span>
+       </td>
+       <td class="py-2 px-4 text-right font-bold">
+        138 T
+       </td>
+      </tr>
+      <tr class="border-t">
+       <td class="py-2 px-4 flex items-center">
+        <span class="mr-2 w-4 text-center">
+         4
+        </span>
+        <img alt="Duta Palma logo" class="mr-2" height="20" src="https://storage.googleapis.com/a1aa/image/KASsm_Yd0FZT1YDxrO1x0WfO8fsVIeDdZltZ1wUdYqg.jpg" width="20"/>
+        <span class="font-bold">
+         DUTA PALMA
+        </span>
+       </td>
+       <td class="py-2 px-4 text-right font-bold">
+        78 T
+       </td>
+      </tr>
+      <tr class="border-t">
+       <td class="py-2 px-4 flex items-center">
+        <span class="mr-2 w-4 text-center">
+         5
+        </span>
+        <img alt="PT TPPI logo" class="mr-2" height="20" src="https://storage.googleapis.com/a1aa/image/ClW55RC2u29i2o7yYY6DGpC6Uj58W_lx3rdow3gvuY0.jpg" width="20"/>
+        <span class="font-bold">
+         PT TPPI
+        </span>
+       </td>
+       <td class="py-2 px-4 text-right font-bold">
+        37 T
+       </td>
+      </tr>
+      <tr class="border-t">
+       <td class="py-2 px-4 flex items-center">
+        <span class="mr-2 w-4 text-center">
+         6
+        </span>
+        <img alt="PT Asabri logo" class="mr-2" height="20" src="https://storage.googleapis.com/a1aa/image/iULAVgvp0fcsGgkXy6EOVXfUPtMk-NmxgdIYP55k1lk.jpg" width="20"/>
+        <span class="font-bold">
+         PT ASABRI
+        </span>
+       </td>
+       <td class="py-2 px-4 text-right font-bold">
+        22 T
+       </td>
+      </tr>
+      <tr class="border-t">
+       <td class="py-2 px-4 flex items-center">
+        <span class="mr-2 w-4 text-center">
+         7
+        </span>
+        <img alt="PT Jiwasraya logo" class="mr-2" height="20" src="https://storage.googleapis.com/a1aa/image/0YQIBZa1CvdRxcv61DiwERc39ElLdcN7iLI3TMnLUYU.jpg" width="20"/>
+        <span class="font-bold">
+         PT JIWASRAYA
+        </span>
+       </td>
+       <td class="py-2 px-4 text-right font-bold">
+        17 T
+       </td>
+      </tr>
+      <tr class="border-t">
+       <td class="py-2 px-4 flex items-center">
+        <span class="mr-2 w-4 text-center">
+         8
+        </span>
+        <img alt="Kemensos logo" class="mr-2" height="20" src="https://storage.googleapis.com/a1aa/image/o0r0y8hGIS3q3MsxEYFqndtbG-l1_DyBT5Yyrr_15K0.jpg" width="20"/>
+        <span class="font-bold">
+         KEMENSOS
+        </span>
+       </td>
+       <td class="py-2 px-4 text-right font-bold">
+        17 T
+       </td>
+      </tr>
+      <tr class="border-t">
+       <td class="py-2 px-4 flex items-center">
+        <span class="mr-2 w-4 text-center">
+         9
+        </span>
+        <img alt="Sawit CPO logo" class="mr-2" height="20" src="https://storage.googleapis.com/a1aa/image/7ZXp-_NtTt37VbQlxUbrnK0w1olINAtxRGaXzc1nIcE.jpg" width="20"/>
+        <span class="font-bold">
+         SAWIT CPO
+        </span>
+       </td>
+       <td class="py-2 px-4 text-right font-bold">
+        12 T
+       </td>
+      </tr>
+      <tr class="border-t">
+       <td class="py-2 px-4 flex items-center">
+        <span class="mr-2 w-4 text-center">
+         10
+        </span>
+        <img alt="Garuda Indonesia logo" class="mr-2" height="20" src="https://storage.googleapis.com/a1aa/image/g6hbmmAN7XlyTbEpPmxWHbcMTYRD_x0vhoadULVpRRc.jpg" width="20"/>
+        <span class="font-bold">
+         GARUDA INDONESIA
+        </span>
+       </td>
+       <td class="py-2 px-4 text-right font-bold">
+        9 T
+       </td>
+      </tr>
+      <tr class="border-t">
+       <td class="py-2 px-4 flex items-center">
+        <span class="mr-2 w-4 text-center">
+         11
+        </span>
+        <img alt="BTS Kominfo logo" class="mr-2" height="20" src="https://storage.googleapis.com/a1aa/image/APfWk_SkaTCzVxH8pllH6Z-5U3GL4m71_P8yRkFuXhM.jpg" width="20"/>
+        <span class="font-bold">
+         BTS KOMINFO
+        </span>
+       </td>
+       <td class="py-2 px-4 text-right font-bold">
+        8 T
+       </td>
+      </tr>
+      <tr class="border-t">
+       <td class="py-2 px-4 flex items-center">
+        <span class="mr-2 w-4 text-center">
+         12
+        </span>
+        <img alt="Bank Century logo" class="mr-2" height="20" src="https://storage.googleapis.com/a1aa/image/so75_o33lezB-l1gvr_a-53Asj0GG_OMX2PgIvII5Dg.jpg" width="20"/>
+        <span class="font-bold">
+         BANK CENTURY
+        </span>
+       </td>
+       <td class="py-2 px-4 text-right font-bold">
+        7 T
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+  </div>
+ </body>
 </html>
