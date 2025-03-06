@@ -1,2 +1,2 @@
 # Nguawor Lek
-ligakorupsi.vercel.app
+(ligakorupsi.vercel.app)
